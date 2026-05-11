@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rge-campaign-py"
+name = "AOE2-McCampaign"
 version = "0.1.0"
 description = "Pure-Python reader for AoE campaign containers (.cpn, .cpx, .aoe2campaign)."
 readme = "README.md"
@@ -22,9 +22,9 @@ classifiers = [
 dev = ["build", "twine"]
 
 [project.urls]
-Homepage = "https://github.com/UnluckyForSome/rge-campaign-py"
-Repository = "https://github.com/UnluckyForSome/rge-campaign-py"
+Homepage = "https://github.com/UnluckyForSome/AOE2-McCampaign"
+Repository = "https://github.com/UnluckyForSome/AOE2-McCampaign"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["rge_campaign_py*"]
+include = ["aoe2_mccampaign*"]
